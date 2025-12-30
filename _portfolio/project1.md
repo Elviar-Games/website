@@ -1,18 +1,17 @@
 ---
-title: Project Threads
-subtitle: subtitle lorem ipsum dolor sit amet consectetur.
+title: Untitled Android Game
+subtitle: A Gate Runner x Roguelite hybrid game with some new and interesting mechanics.
 image: assets/img/portfolio/01-full.jpg
-alt: Shirts on a hanger
+alt: 
 
 caption:
-  title: Threads
-  subtitle: Illustration
+  title: Untitled Android Game
+  subtitle: Gate Runner with new mechanics
   thumbnail: assets/img/portfolio/01-thumbnail.jpg
 ---
-Use this area to describe your project. **Markdown** supported. This entry (project1.md) uses links for the image sources. All other projects in the portfolio use local images. Both work just fine! Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+As a busy parent with little time for gaming, it only made sense that Elviar's first game was a casual/hypercasual mobile game. 
 
 {:.list-inline}
-- Date: January 2017
-- Client: Threads
-- Category: Illustration
-
+- Expected Release: 2026
+- Platforms: Android
+- Category: Casual, Gate Runner x Roguelite
