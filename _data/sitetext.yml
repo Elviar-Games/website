@@ -11,8 +11,8 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to Elviar Games!
-    text: a small Canadian indie studio with big heart
+    title: a small Canadian indie studio with big heart ❤️
+    text: Welcome to Elviar Games!
     button: Learn More
     buttonlink: "#services"
 
@@ -24,11 +24,11 @@ en: &DEFAULT_EN
       - title: "Android Game Development"
         desc: "Our focus is on creating games for Android devices."
         icon: fa-brands fa-android 
-      - title: "Other Platforms"
+      - title: "Other <br> Platforms"
         desc: "Some of our games are also available on other platforms, like iOS and web."
         icon: fa-solid fa-gamepad
-      - title: "Proudly Canadian"
-        desc: "Your description here, full **Markdown** support"
+      - title: "Proudly <br> Canadian"
+        desc: "The studio started in the Great White North"
         icon: fa-brands fa-canadian-maple-leaf
 
   portfolio:
@@ -88,7 +88,7 @@ en: &DEFAULT_EN
     subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
     people:
-      - name: "Jean-Guy Rouleau a.k.a. Jay Rulo"
+      - name: "Jean-Guy Rouleau <br> a.k.a. Jay Rulo"
         role: "Founder, Designer, Developer"
         image: assets/img/team/500x500.jpg
         social:
