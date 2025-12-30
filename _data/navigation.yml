@@ -34,6 +34,29 @@ en-GB:
 en-AU:
   <<: *DEFAULT_EN
 
+# French
+# -------
+fr: &DEFAULT_FR
+  nav:
+    - title: "Services"
+      section: services
+    - title: "Portefolio"
+      section: portefolio
+    - title: "À propos"
+      section: propos
+    - title: "Chronologie"
+      section: chronologie
+    - title: "Équipe"
+      section: equipw
+    - title: "Contactez-nous"
+      section: contact
+    - title: "Source du modèle"
+      url: https://github.com/raviriley/agency-jekyll-theme/
+fr-CA:
+  <<: *DEFAULT_FR
+fr-FR:
+  <<: *DEFAULT_FR
+
 # Spanish
 # -------
 es: &DEFAULT_ES
