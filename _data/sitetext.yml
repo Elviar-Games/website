@@ -11,127 +11,93 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
-    button: Tell Me More
+    title: Welcome to Elviar Games!
+    text: a small Canadian indie studio with big heart
+    button: Learn More
     buttonlink: "#services"
 
   services:
-    title: "Services"
-    text: "Lorem ipsum"
+    title: "What We Do"
+    text: "and who we are"
     section: services
-    list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
+    list: #FA Icons -> https://fontawesome.com/icons
+      - title: "Android Game Development"
+        desc: "Our focus is on creating games for Android devices."
+        icon: fa-brands fa-android 
+      - title: "Other Platforms"
+        desc: "Some of our games are also available on other platforms, like iOS and web."
+        icon: fa-solid fa-gamepad
+      - title: "Proudly Canadian"
         desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+        icon: fa-brands fa-canadian-maple-leaf
 
   portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    title: "Games"
+    text: "the games we've made, or are currently making"
     section: portfolio
-    closebutton: "Close Project"
+    closebutton: "Close Game"
 
   timeline:
     title: "Timeline"
-    text: "Lorem ipsum timeline"
+    text: "where we came from and where we're going"
     section: timeline
     # left is the default
     #start_align: "left"
     events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "First Game Released"
+        year: "2026"
+        desc: "Currently under development, we expect to release our first game in 2026. Stay tuned!"
         image: assets/img/timeline/1.jpg
         alt:
-      - title: "An Agency is Born"
-        year: "March 2011"
+      - title: "Development begins on our first project"
+        year: "December 2025"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
         image: assets/img/timeline/2.jpg
         alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
+      - title: "An idea is born"
+        year: "December 2025"
+        desc: "As a lifelong gamer facing long-term unemployment, our Founder decided it was time to take control and turn his passion into something more, and so began [Elviar Games](#about)."
         image: assets/img/timeline/3.jpg
         alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
-        alt:
-        # you can enforce the alignment
-        align: right
     end: "Be Part <br> of Our <br> Story!"
 
   about:
     title: "About Us"
     text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    body: "Elviar Games was born out of a lifelong passion for gaming, on all platforms. The name is a phonetization of the founder's children's initials: L V R."
     section: about
 
   clients:
     section: clients
     max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
+    horizontal-scrolling: "yes" #"yes/no"
     list:
-      - title: "envato"
+      - title: "Unity"
         url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
+        logo: assets/img/clients/unity.jpg
+      - title: "Android"
         url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
+        logo: assets/img/clients/android.jpg
+      - title: "Play Store"
         url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
+        logo: assets/img/clients/playstore.jpg
 
   team:
     title: "OUR AMAZING TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    text: "without the people, the games would not be possible"
     subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
     people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
+      - name: "Jean-Guy Rouleau a.k.a. Jay Rulo"
+        role: "Founder, Designer, Developer"
         image: assets/img/team/500x500.jpg
         social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
+          - url: https://linkedin.com/in/jgrouleau
             icon: fab fa-linkedin-in
 
   contact:
     title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    text: "we accept everything: questions, praise, support requests, love, hate, money..."
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
@@ -141,22 +107,18 @@ en: &DEFAULT_EN
     phone-validation: "Please enter your phone number."
     message: "Message*"
     message-validation: "Please enter a message."
-    subject: "Contact Form Submission"
+    subject: "Contact Form submission from website"
     submit: "Send Message"
 
   footer:
     legal: "Privacy Policy"
     social:
-      - url: https://twitter.com
-        icon: "fab fa-twitter"
       - url: https://facebook.com
         icon: "fab fa-facebook-f"
       - url: https://linkedin.com
         icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
+      - url: https://github.com/Elviar-Games
         icon: "fab fa-github"
-      - url: https://instagram.com
-        icon: "fab fa-instagram"
 en-US:
   <<: *DEFAULT_EN
 en-CA:
